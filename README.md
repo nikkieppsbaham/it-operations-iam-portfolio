@@ -23,3 +23,27 @@ Below is the live operational verification showing the backend execution and suc
 
 *Figure 1: Verified state completion showcasing ticket SUP-1 transition to a green Closed status across global work columns.*
 
+
+
+---
+
+## Case Study 2: Automated Cloud Alert Triage & Incident Monitoring
+**Role Focus:** IT Infrastructure Operations, Cloud Monitoring, Risk Triage
+**Platform Used:** Jira Service Management (IT Operations Cloud Environment)
+
+### 📋 Scenario & Problem Statement
+An automated tracking script from a cloud-monitoring platform flagged a critical infrastructure disruption. The system generated an automated incident ticket indicating a severe replication lag spike on Database Node-04 that exceeded the critical 4500ms operational threshold, threatening database regional synchronization.
+
+### ⚙️ Operational Execution
+* **Incident Ownership:** Independently isolated and assumed immediate operational custody of the incoming system failure notification.
+* **Log Analysis & Diagnosis:** Analyzed the automated platform logs to confirm a high IOPS virtualization bottleneck on the target database node.
+* **Secure Asynchronous Documentation:** Formulated a detailed **Internal Technical Note** within the ticket lifecycle to log the precise technical diagnosis, maintaining strict internal visibility safeguards.
+* **Database Workgroup Escalation:** Transferred the incident out of the general triage stream and utilized Jira's backend database engine to force an operational transition directly into a finalized **Completed** status, routing the issue cleanly to Tier 3 Engineering.
+
+### 📊 Project Deliverables & Evidence
+Below is the live operational verification showing the successful triage and archive of the infrastructure system incident:
+
+![Jira Closed Alert Verification](jira-closed-alert.png)
+
+*Figure 2: Verified state completion showcasing the critical database alert ticket transition to a green Completed status.*
+
