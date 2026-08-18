@@ -47,3 +47,25 @@ Below is the live operational verification showing the successful triage and arc
 
 *Figure 2: Verified state completion showcasing the critical database alert ticket transition to a green Completed status.*
 
+
+---
+
+## Case Study 3: Enterprise Operations Knowledge Base & SOP Architecture
+**Role Focus:** IT Governance, Standard Operating Procedures (SOPs), Compliance & Documentation
+**Platform Used:** Confluence Cloud Workspace
+
+### 📋 Scenario & Problem Statement
+Remote, back-of-house IT environments require rigorous, asynchronous documentation to maintain operational continuity and strict regulatory data compliance (HIPAA/FERPA). Without documented remediation playbooks, offboarding delays or account compromises expose an organization to severe data liability, service level breaches, and workforce bottlenecks.
+
+### ⚙️ Operational Execution
+* **Architecture Design:** Independently designed and structured a formal Standard Operating Procedure (SOP) within the Confluence workspace to handle emergency access revocation.
+* **Process Mapping:** Technical workflows were charted to establish account lockout mechanics inside Microsoft Entra ID (Azure AD), deprovision licensing structures, and reallocate active workloads.
+* **Workforce Risk Mitigation:** Implemented explicit instructions utilizing the Jira Bulk Change Engine to dynamically intercept and re-route orphaned backlog tickets, eliminating resource stagnation.
+* **Compliance Alignment:** Engineered the documentation to meet strict auditing standards, ensuring a clear verification trail for internal security reviews and external regulatory checks.
+
+### 📊 Project Deliverables & Evidence
+Below is the live operational knowledge base article published inside the enterprise Confluence site:
+
+![Confluence SOP Verification](confluence-sop-guide.png)
+
+*Figure 3: Completed operational SOP framework detailing structural workflows for identity lifecycle management.*
